@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 >Heading H3</h3>
+    <input name="changer">
+    <button onclick="Change()">click here</button>
+    <script>
+        // We have used tagname to make changes
+         var Change=()=>{
+            document.getElementsByTagName('h3')[0].style.color="orange";
+            element=document.getElementsByName('changer')[0];// [0] is used to access the first element of the array like object
+            element.setAttribute("type","radio");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+What is node js?
+=> Node.js is an open-source , cross-platform runtime environment for executing js code outside the browser.Built on Chrome's V8 JavaScript engines, it enables  developers to use 
+to use js for server-side programming , revolutionizing web development.
+
+Key features:
+Open source: 
+1 . View: You can see how Node js built under the hood.
+2. Modify: If you want to customize or improve node js , you can do it .
+3: Contribute: Developers around the world actively contribute to improve Node Js.
+
+JavaScript Runtime: Run JS outside of the browser.
+
+Cross-platform: Compatible to multiple OS. Supported on mutliple OS(Windows, linux,Ubuntu,Arch,MacOs,Parrot Os)
+
+Non-blocking I/O: Handles multiple request efficiently.(Asynchronous)
+
+Package Manager (npm): Accesss thousands of reusable libraries.
+
+Why is Node js special as a runtime:
+V8 Engine: Node js uses google chrome v8 engine to compile js into machine code , making it lightening fast.
+Built-in-API: Node js come with built-in-APIs(like fs for file system or http for server) so you can build powerful application without extra library.
+
+
+Why to Learn NodeJS?
+
+Node js powers many modern application like , netflix, paypal,LinkedIn. Because its ability to build fast , scalable,and real-time application make it must learn technology for 
+developers.
+
+1- Single language for full Stack Web devlopment
+    - Development can use JavaScript for both frontend and backend , reducing complexity.
+	- For example, a MERN stack project(Mongo , express, react and Node)
+	
+2- High performance:
+   - V8 engine ,it became superfast
+   - It can handele thousands of simultaneous connection with easy.
+3- Event driven and Non-blocking I/O:
+   - unlike traditional servers that block a thread for each request, Node js uses asynchronous model , making it highly efficient for handling multiple task
+ 4- Scalable for Modern Application:
+    Ideal for real time Application like chat apps, streamimng platform,online games .
+	
+	
+	
+	Million Dollar Question
+	
+	Is it a Language or a Framework?
+	Answer: Node .js is not a programming language or a framework , but rather a JS runtime environment that allows developers to run JS outside of Browser.
+	
+	
+	History and Evolution of Node js:
+1: Javascript Initial Role:- Initially , JavaScript was only used for client-side tasks in web browsers.
+2: Creation of Node js(2009): Ryan Dahl ctreated node js by taking V8 Javascript Engine(used in google chrome)and running it ouside the browser.
+      This innovation allowed Js to handle server side development.
+3: Introduction to Module : Node js came with built-in modules like OS, FS, http, which made it popular for creatig backend-application. 
+
+4:npm(2010): Node js launched its package manager(npm)in 2010, revolutionizing JS development by simplifying packagesharing and dependency managemnet.
+
+5: IO.js and Node.js Merger(2015): Node js merged with IO.js , reuniting the ecosystem and bringing community-driven improvement.
+
+6: Node.js Foundation(2015): To support thr collaboration , innovationand sustainable development within the ecosystem.
+	
+	
+	
+Some important npm packages:
+
+1:Express.js: A popularframework of node.js for buiding web application and APIs.
+
+2:Mongoose: A package for interacting with MongoDb databases using an object data modelling(ODM) approach.
+
+3:Axios: A promise-based HTTP client for making API request.
+
+4: Socket I/O: Enables real-time-communication between client and server.
+
+5: Passport.js: Authentication on middleware for node .js.
+
+
+Prerequisites to learn Node.js
+1-HTML
+2-CSS
+3-JavaScript:- Basic & Intermediate also ES6
+
+Introductionto REPL (Read- Eval-Print -Loop):
+It an interactive programming environment that allows you to execure JS code in one statement at a time .
+	
+	
+	
+
+           

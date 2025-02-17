@@ -1,0 +1,10 @@
+os.platform():
+os.arch();
+os.freemem();
+os.totalmem();
+os.uptime();
+os.homedir();
+os.hostname();
+os.networkinterface();
+os.cpus():
+os.tmpdir():

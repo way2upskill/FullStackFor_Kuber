@@ -1,0 +1,20 @@
+Self-contained code unit:
+1-Each file in Node.js treated as seperate module.
+2-Variables,functions,or objects defined in one file are not accessible in another file by default unless you explicitly export them.
+
+Encapsulation:
+1-Node.js uses the CommonJS module system(module.exports and require)to ensure the code in one file does not pollute or interfere with the global scope.
+2-This makes your code modular,maintainableand easier to debug.
+
+What Exactly is a Module in NodeJS?
+ A module in node.js represent a file containing a code that is self-contained, reusable and Encapsulated.
+ Node.js uses the CommonJS module system.
+ This module system came before ES Modules was introduced in JS; thats why sntax is different.
+ Modules in Node.js are created by defining separate file for different functionalities.
+ You must export anything you want to make accessible to other modules.
+
+ Built in Modules in Node.js
+ OS:Provides information about the operating system
+ Path: Provides utility functions for working with the file paths
+ FS:file system operations like Reading and writing.
+ HTTP: Create HTTP Servers

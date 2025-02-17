@@ -1,0 +1,17 @@
+$color_1:rgb(7, 1, 1);
+$color_2:rgb(130, 20, 20);
+$color_3:rgb(21, 74, 21);
+$color_4:rgb(144, 66, 144);
+
+.p1{
+    background-color: $color_2;
+}
+.p2{
+    background-color: $color_1;
+}
+.p3{
+    background-color: $color_4;
+}
+.p4{
+    background-color: $color_3;
+}

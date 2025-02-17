@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hoverdiv{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Mouse Over event</h2>
+    <div id="hoverdiv">Hover over me </div>
+    <script>
+        document.getElementById("hoverdiv").addEventListener("mouseover",()=>{
+            alert("Mouse is over the element");
+
+        })
+        document.getElementById("hoverdiv").addEventListener("mouseout",()=>{
+            alert("Mouse is out of the element");
+
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+In Node.js , the path module provides utilities for working with file and directory paths.It a built in module, so you dont need to install any external package to use it.
+__filename: 
+            Provides the absolute path of the current executing file.
+__dirname:
+            Provides the absolute path of the current working  directory.
+path.parse:
+            Returns an object with details about a given path, including root,dir,base,ext and name.
+path.join():
+            Joins multiple path segment into one , using the appropriate separat0r(\ on windows,/on Linux or /macos).
+path.resolve():
+                Resolve a sequence of path into an absolutepath,starting from the current directory
+path.extname:
+path.basename:
+path.dirname:
+path.sep: Return the platform specific path segment separator(\ on windows,/on Linux or /macos).

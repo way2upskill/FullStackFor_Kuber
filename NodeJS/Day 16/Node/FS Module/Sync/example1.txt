@@ -1,0 +1,2 @@
+Hello kuber, this is sync file creation
+Appended text in sync mode

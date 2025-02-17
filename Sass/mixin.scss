@@ -1,0 +1,20 @@
+@mixin PrimaryBtn{
+    background-color: green;
+    border-radius: 30%;
+    border:2px solid black;
+    text-align: center;
+    padding: 4px;
+    color: white;
+}
+.submit{
+    @include PrimaryBtn();
+}
+.reset{
+    @include PrimaryBtn();
+}
+.reset1{
+    @include PrimaryBtn();
+}
+.reset2{
+    @include PrimaryBtn();
+}

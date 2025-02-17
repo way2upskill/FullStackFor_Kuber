@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const no=251;
+        var promise=new Promise(function(resolve,reject){
+            //do a thing, possibly async, then....
+            if(no % 5==0){
+                resolve("Stuff Worked as it is divisibe by 5");
+            }
+            else{
+                reject("It has broken because not divible by 5 ")
+            }
+        });
+        console.log(promise);
+    </script>
+</body>
+</html>

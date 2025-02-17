@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // it will return the resolve or rejected promise that will happen first.
+        Promise.race([
+        new Promise((resolve)=>setTimeout(()=>{
+            resolve(3)
+        },500)),
+        new Promise((resolve)=>setTimeout(()=>{
+            resolve(6)
+        },2000)),
+        new Promise((resolve)=>setTimeout(()=>{
+            resolve(9)
+        },250))]).then(alert);
+    </script>
+</body>
+</html>

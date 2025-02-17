@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            margin: 2px;
+            padding: 2px;
+        }
+        #box1{
+            background-color: green;
+        }
+        #box2{
+            background-color: blue;
+        }
+        #box3{
+            background-color: red;
+        }
+        #box4{
+            background-color: yellow;
+        }
+        @media(min-width:640px){
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media(max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"><img src="./lion-king-forest-260nw-2482067871.webp " alt="error" width="300px"height="300px"></div>
+        <div class="box" id="box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab enim laborum excepturi perspiciatis illum veniam beatae ea maxime itaque ipsa, rerum, eligendi soluta dolores nam ipsum! Architecto a, omnis possimus </div>
+        <div class="box" id="box3">BOX3</div>
+        <div class="box" id="box4">BOX4</div>
+    </div>
+
+
+</body>
+</html>

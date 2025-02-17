@@ -1,0 +1,35 @@
+.submit {
+  background-color: green;
+  border-radius: 30%;
+  border: 2px solid black;
+  text-align: center;
+  padding: 4px;
+  color: white;
+}
+
+.reset {
+  background-color: green;
+  border-radius: 30%;
+  border: 2px solid black;
+  text-align: center;
+  padding: 4px;
+  color: white;
+}
+
+.reset1 {
+  background-color: green;
+  border-radius: 30%;
+  border: 2px solid black;
+  text-align: center;
+  padding: 4px;
+  color: white;
+}
+
+.reset2 {
+  background-color: green;
+  border-radius: 30%;
+  border: 2px solid black;
+  text-align: center;
+  padding: 4px;
+  color: white;
+}/*# sourceMappingURL=mixin.css.map */

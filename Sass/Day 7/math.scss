@@ -1,0 +1,6 @@
+$base-width:100px;
+.element{
+    width:$base-width * 2;
+    margin-left: $base-width * 3;
+    background-color: yellow;
+}
